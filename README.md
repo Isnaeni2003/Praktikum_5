@@ -37,6 +37,16 @@ uts: 35%, uas: 35%)
 
 • Commit dan push repository ke github.
 ## Flowchart Program Daftar Nilai
+![image](https://user-images.githubusercontent.com/115929351/204506446-b9a82606-08b2-4653-b1e1-04cc51c707c1.png)
+PENJELASAN
+1. Mulai
+2. Ditampilkan menu pilihan (Lihat, Ubah, Cari, Tambah, Hapus dan Keluar) user menginput salah satu pilihan untuk nantinya diproses
+3. Ditampilkan kembali input an jika user memilih "tambah" berarti, user memasukkan input an (Nama, NIM, Nilai Tuags, UTS, UAS)
+4. Data akan diproses seusai yang user input
+5. Menampilkan hasil output "Program Daftar Nilai"
+6. Menampilkan keputusan unutk memilih kembali menu pilihan (Lihat, Ubah, Cari, Tambah, Hapus dan Keluar), jika memilih "cari" maka user kembali memasukkan input an baris mana yang mau dicari, dan data akan diproses kembali kemudian menampilkan ulang "Program Daftar Nilai"
+7. Menampilkan kembali keputusan menu pilihan (Lihat, Ubah, Cari, Tambah, Hapus dan Keluar), jika user memilih "keluar" maka lalu pilih "y" maka akan secara otomatis keluar dari program tersebut
+8. Selesai
 
 ## Step by Step
 1. Membuat dictionary kosong [], kemudian saya mengguanakan fungsi def untuk memanggil setiap proses menu, setiap kali dipanggil. Membuat index dari kolom ( No, Nama, NIM, Tugas, UTS, UAS, Nilai Akhir) dengan perulangan for dan memberikan nomor dengan enumarate.
